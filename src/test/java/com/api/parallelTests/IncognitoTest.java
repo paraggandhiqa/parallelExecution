@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 
 public class IncognitoTest {
-	
+
 	@Test
 	public void incognitoTest() {
 		ChromeOptions options = new ChromeOptions();
@@ -14,6 +14,7 @@ public class IncognitoTest {
 		WebDriver driver = new ChromeDriver(options);
 		driver.get("https://www.google.com");
 		System.out.println("Incognito opened!");
+
 		driver.quit();
 	}
 
