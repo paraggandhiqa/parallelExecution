@@ -13,6 +13,7 @@ public class IncognitoTest {
 		options.addArguments("--incognito");
 		WebDriver driver = new ChromeDriver(options);
 		driver.get("https://www.google.com");
+		System.out.println("Incognito opened!");
 		driver.quit();
 	}
 

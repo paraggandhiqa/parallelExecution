@@ -10,6 +10,7 @@ public class ChromeTest {
 	public void chromeTest() {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com");
+		System.out.println("Chrome opened!");
 		driver.quit();
 	}
 
